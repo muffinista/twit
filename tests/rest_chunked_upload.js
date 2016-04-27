@@ -80,7 +80,6 @@ describe('twit.postMediaChunked', function () {
 
 exports.checkUploadMedia = function (err, bodyObj, resp) {
   assert(!err, err)
-
   assert(bodyObj)
   assert(bodyObj.media_id)
   assert(bodyObj.media_id_string)
